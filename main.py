@@ -33,7 +33,7 @@ BRANDEDCHAT = Client(
     bot_token = BOT_TOKEN
 )
 START =f"""
-**๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
+**๏ ʜᴇʏ, ɪ ᴀᴍ ᴍɪꜱꜱ Qᴜᴇᴇɴ**
 **➻ᴀɴ ᴀɪ-ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ.**
 **──────────────────**
 **➻ ᴜsᴀɢᴇ /chatbot [on/off]**
@@ -47,7 +47,7 @@ SOURCE_TEXT = f"""
 """
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
 SOURCE = '|| ᴘʟᴢ ʏᴀʀʀ ᴍɪꜱꜱ Qᴜᴇᴇɴ ᴋᴀ ɴᴜᴍʙᴇʀ ᴅᴇᴅᴏ ꜱᴀᴄʜ ᴍᴀɪ ʀᴇᴘᴏ ᴅᴜɴɢᴀ ᴍᴇʀɪ ᴊᴀɴɴɴ ||'
-x=["❤️","💘","✨","🪸","🕊️","🎈","🎯"]
+x=["❤️","💘","✨","💘","🕊️","♥️","👀"]
 g=choice(x)
 async def is_admins(chat_id: int):
     return [
