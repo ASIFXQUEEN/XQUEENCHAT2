@@ -46,8 +46,8 @@ SOURCE_TEXT = f"""
 ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ**
 """
 SOURCE_BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton('sᴏᴜʀᴄᴇ', callback_data='hurr')], [InlineKeyboardButton(" ꜱᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GRP}"), InlineKeyboardButton(text="ʙᴀᴄᴋ ", callback_data="HELP_BACK")]])
-SOURCE = 'ᴘʟᴢ ʏᴀʀʀ ᴍɪꜱꜱ Qᴜᴇᴇɴ ᴋᴀ ɴᴜᴍʙᴇʀ ᴅᴇᴅᴏ ꜱᴀᴄʜ ᴍᴀɪ ʀᴇᴘᴏ ᴅᴜɴɢᴀ ᴍᴇʀɪ ᴊᴀɴɴɴ'
-x=["❤️","🎉","✨","🪸","🎉","🎈","🎯"]
+SOURCE = '|| ᴘʟᴢ ʏᴀʀʀ ᴍɪꜱꜱ Qᴜᴇᴇɴ ᴋᴀ ɴᴜᴍʙᴇʀ ᴅᴇᴅᴏ ꜱᴀᴄʜ ᴍᴀɪ ʀᴇᴘᴏ ᴅᴜɴɢᴀ ᴍᴇʀɪ ᴊᴀɴɴɴ ||'
+x=["❤️","💘","✨","🪸","🕊️","🎈","🎯"]
 g=choice(x)
 async def is_admins(chat_id: int):
     return [
@@ -135,7 +135,7 @@ async def restart(client, m: Message):
         await asyncio.sleep(0.5)
         await accha.edit("🦋💜")
         await asyncio.sleep(0.5)
-        await accha.edit("๏ ʜᴇʏ ɪ ᴀᴍ 𝗺𝗶𝘀𝘀 𝗾𝘂𝗲𝗲𝗻 ➻ᴀɴ ᴄᴏᴘʏ ᴏꜰ ᴍɪꜱꜱ Qᴜᴇᴇɴ ꜰʀᴏᴍ ᴋᴅᴘ ────────────────── ➻ ᴜsᴀɢᴇ /chatbot [on/off] ๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ /help")
+        await accha.edit("๏ ʜᴇʏ ɪ ᴀᴍ 𝗺𝗶𝘀𝘀 𝗾𝘂𝗲𝗲𝗻 ➻ᴀɴ ᴄᴏᴘʏ ᴏꜰ ᴍɪꜱꜱ Qᴜᴇᴇɴ ꜰʀᴏᴍ ᴋᴅᴘ ────────────────── ➻ ᴜsᴀɢᴇ /chatbot [on/off] ๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ  /help")
         umm = await m.reply_sticker(
                   sticker = STKR,
         )
