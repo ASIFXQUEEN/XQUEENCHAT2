@@ -131,11 +131,11 @@ async def restart(client, m: Message):
         accha = await m.reply_text(
                         text = f"{g}")
         await asyncio.sleep(1)
-        await accha.edit("๏ ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}")
+        await accha.edit("ᴍɪꜱꜱ Qᴜᴇᴇɴ ᴊᴀᴏ ")
         await asyncio.sleep(0.5)
-        await accha.edit("🦋💜")
+        await accha.edit("ᴍᴀɪ ɴᴀʜɪ ᴀɴᴇ ᴡᴀʟɪ")
         await asyncio.sleep(0.5)
-        await accha.edit("๏ ʜᴇʏ ɪ ᴀᴍ 𝗺𝗶𝘀𝘀 𝗾𝘂𝗲𝗲𝗻 ➻ᴀɴ ᴄᴏᴘʏ ᴏꜰ ᴍɪꜱꜱ Qᴜᴇᴇɴ ꜰʀᴏᴍ ᴋᴅᴘ ────────────────── ➻ ᴜsᴀɢᴇ /chatbot [on/off] ๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ  /help")
+        await accha.edit("๏ ʜᴇʏ ɪ ᴀᴍ 𝗺𝗶𝘀𝘀 𝗾𝘂𝗲𝗲𝗻 ➻ᴀɴ ᴄᴏᴘʏ ᴏꜰ ᴍɪꜱꜱ Qᴜᴇᴇɴ ꜰʀᴏᴍ ᴋᴅᴘ ────────────────── ➻ ᴜsᴀɢᴇ  /chatbot [on/off] ๏ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴜsᴇ  /help")
         umm = await m.reply_sticker(
                   sticker = STKR,
         )
