@@ -1,7 +1,5 @@
 import env
 import asyncio
-from pyrogram import bot
-from pyrogram.database import DB
 
 from telethon import events, errors
 
