@@ -1,7 +1,7 @@
 import env
 import asyncio
-from Hack import bot
-from Hack.database import DB
+from pyrogram import bot
+from pyrogram.database import DB
 
 from telethon import events, errors
 
